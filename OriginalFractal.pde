@@ -4,6 +4,7 @@ public void setup(){
  background(255,255,255);
 }
 public void draw(){
+fractal(250,250,400);
   fill((int)(Math.random()*250)+150,(int)(Math.random()*150)+100,(int)(Math.random()*200)+150,50);
 }
 public void fractal(int x, int y, int len){
